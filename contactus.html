@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - SpasiKomputer</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-logo">
+        <p>SpasiKomputer</p>
+      </div>
+      <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Simulasi Rakit pc</a>
+        <a href="signature.html">Rakitan Pc Fullset</a>
+        <a href="about.html">About Us</a>
+        <a href="contactus.html">Contact Us</a>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="Search..." required maxlength="20" />
+        <i data-feather="search" stroke="white"></i>
+      </div>
+      <div class="login" onclick="toggleDropdown()">
+        <i data-feather="user" stroke="white"></i>
+        <p>My Account</p>
+        <div class="dropdown-menu" id="dropdownMenu">
+          <a href="signup.html">Sign Up</a>
+          <a href="login.html">Login</a>
+        </div>
+      </div>
+<script src="login.js"></script>
+    </nav>
+
+
+    <section id="gallery">
+        <!DOCTYPE html>
+        <html lang="id">
+        <head>
+          <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>Kontak Kami</title>
+          <link rel="stylesheet" href="style.css" />
+        </head>
+        <body>
+          <section class="contact-section">
+            <div class="contact-container">
+              <h1>Kontak Kami</h1>
+              <p>Silakan hubungi kami melalui form di bawah atau informasi kontak yang tersedia.</p>
+        
+              <div class="contact-content">
+                <form class="contact-form">
+                  <input type="text" placeholder="Nama Anda" required />
+                  <input type="email" placeholder="Email Anda" required />
+                  <textarea placeholder="Pesan Anda" required></textarea>
+                  <button  type="submit">Kirim Pesan</button>
+                </form>
+        
+                <div class="contact-info">
+                  <h3>Informasi Kontak</h3>
+                  <p><strong>Alamat:</strong> Jl. Ahmad Yani, TK Al-azzhar, kec. Muara enim, Kab. Muara enim, Prov. Sumatera selatan, Indonesia</p><br>
+                  <p><strong>Email:</strong> mfkrass.com</p><br>
+                  <p><strong>Telepon:</strong> +62 821 7295 6173</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </body>
+        </html>
+        
+    </section>
+
+
+    <footer>
+      <div class="ftop">
+        <div class="logo-add">
+          <div class="logo">
+            <p>SpasiKomputer</p>
+          </div>
+          <p class="add">
+            Rakit Komputer?<br>Hanya di SpasiKomputer</p>
+          <p>...</p>
+        </div>
+        <div class="garis-f1"></div>
+        <div class="quick">
+          <p>Menu</p>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="signature.html">Signature Menu</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contactus.html">Contact us</a>
+        </div>
+        <div class="garis-f2"></div>
+        <div class="operational">
+          <p class="opt">Operational</p>
+          <p>Monday-Friday 09.00-00.00</p>
+          <p>Saturday-Sunday 09.00-03.00</p>
+        </div>
+      </div>
+      <div class="fbot">
+        <div class="socmed">
+          <a href="https://www.facebook.com/"> <i data-feather="facebook"></i> </a>
+          <a href="https://www.instagram.com/"> <i data-feather="instagram"></i> </a>
+          <a href="https://www.x.com/"> <i data-feather="twitter"></i> </a>
+          <a href="https://www.linkedin.com/"> <i data-feather="linkedin"></i> </a>
+        </div>
+        <p class="cr">
+          Copyright &copy; <span id="year">2025</span> SpasiKomputer. All rights
+          deserved.
+        </p>
+      </div>
+    </footer>
+    <script>
+      feather.replace();
+    </script>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+    background-image: url('rumah.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    background-color: rgb(6, 109, 3);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgb(6, 109, 3);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+  }
+  
+  .login-container h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .login-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .login-form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(6, 109, 3);
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-btn:hover {
+    background-color: rgb(6, 54, 3);
+  }
+  
+  .back {
+    margin-top: 20px;
+  }
+  
+  .back a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .back a:hover {
+    text-decoration: underline;
+  }
+
+  .woiwok {
+    margin-top: 20px;
+  }
+  
+  .woiwok a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .woiwok a:hover {
+    text-decoration: underline;
+  }
+
